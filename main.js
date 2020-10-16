@@ -149,33 +149,74 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
+function RedditCardComponent_div_0_ng_container_2_div_1_Template(rf, ctx) { if (rf & 1) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 9);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](1, "img", 10);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+} if (rf & 2) {
+    const ctx_r3 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"](3);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("src", ctx_r3.image, _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵsanitizeUrl"]);
+} }
+function RedditCardComponent_div_0_ng_container_2_div_2_Template(rf, ctx) { if (rf & 1) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 9);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "video", 11);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](2, "source", 12);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+} if (rf & 2) {
+    const ctx_r4 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"](3);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](2);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("src", ctx_r4.card.media.reddit_video.scrubber_media_url, _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵsanitizeUrl"]);
+} }
+function RedditCardComponent_div_0_ng_container_2_Template(rf, ctx) { if (rf & 1) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementContainerStart"](0);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](1, RedditCardComponent_div_0_ng_container_2_div_1_Template, 2, 1, "div", 8);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](2, RedditCardComponent_div_0_ng_container_2_div_2_Template, 3, 1, "div", 8);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementContainerEnd"]();
+} if (rf & 2) {
+    const ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"](2);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngIf", !ctx_r1.card.is_video);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngIf", ctx_r1.card.is_video);
+} }
+function RedditCardComponent_div_0_ng_container_3_Template(rf, ctx) { if (rf & 1) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementContainerStart"](0);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "div", 9);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](2, "Nothing to see here");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementContainerEnd"]();
+} }
 const _c0 = function (a0) { return { "is-flipped": a0 }; };
-const _c1 = function (a0) { return { "background-image": a0 }; };
 function RedditCardComponent_div_0_Template(rf, ctx) { if (rf & 1) {
-    const _r2 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵgetCurrentView"]();
+    const _r6 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵgetCurrentView"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 1);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "div", 2);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](2, "div", 3);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](3, "div", 4);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](4);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](2, RedditCardComponent_div_0_ng_container_2_Template, 3, 2, "ng-container", 3);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](3, RedditCardComponent_div_0_ng_container_3_Template, 3, 0, "ng-container", 3);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](4, "div", 4);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](5);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](5, "div", 5);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](6, "a", 6);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("click", function RedditCardComponent_div_0_Template_a_click_6_listener() { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵrestoreView"](_r2); const ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"](); return ctx_r1.flip(); });
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](7);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](6, "div", 5);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](7, "a", 6);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("click", function RedditCardComponent_div_0_Template_a_click_7_listener() { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵrestoreView"](_r6); const ctx_r5 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"](); return ctx_r5.flip(); });
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](8);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](8, "a", 7);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](9, "View on Reddit");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](9, "a", 7);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](10, "View on Reddit");
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 } if (rf & 2) {
     const ctx_r0 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngClass", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpureFunction1"](5, _c0, ctx_r0.flipped));
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngClass", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpureFunction1"](6, _c0, ctx_r0.flipped));
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngStyle", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpureFunction1"](7, _c1, "url(" + ctx_r0.card.thumbnail + ")"));
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngIf", ctx_r0.image);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngIf", !ctx_r0.image);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](2);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate"](ctx_r0.card.title);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](3);
@@ -189,6 +230,27 @@ class RedditCardComponent {
         this.flipText = "Flip to Thumbnail";
     }
     ngOnInit() {
+        this.image = this.setImage();
+        debugger;
+    }
+    setImage() {
+        var _a, _b;
+        if (this.card.thumbnail == 'default') {
+            return '';
+        }
+        if (this.card.post_hint ? this.card.post_hint == 'link' : false) {
+            if (this.card.thumbnail) {
+                return this.card.thumbnail;
+            }
+            return '';
+        }
+        if (this.card.url == 'unknown') {
+            return '';
+        }
+        if ((_b = (_a = this.card.media) === null || _a === void 0 ? void 0 : _a.oembed) === null || _b === void 0 ? void 0 : _b.thumbnail_url) {
+            return this.card.media.oembed.thumbnail_url;
+        }
+        return this.card.url;
     }
     flip() {
         this.flipped = !this.flipped;
@@ -196,11 +258,11 @@ class RedditCardComponent {
     }
 }
 RedditCardComponent.ɵfac = function RedditCardComponent_Factory(t) { return new (t || RedditCardComponent)(); };
-RedditCardComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: RedditCardComponent, selectors: [["app-reddit-card"]], inputs: { card: "card" }, decls: 1, vars: 1, consts: [["class", "scene", 4, "ngIf"], [1, "scene"], [1, "reddit-card", 3, "ngClass"], [1, "reddit-card_face", "reddit-card_face--front", 3, "ngStyle"], [1, "reddit-card_face", "reddit-card_face--back"], [1, "reddit-card-bottom"], [1, "reddit-card-bottom-left", "reddit-card-bottom-button", 3, "click"], ["target", "_blank", 1, "reddit-card-bottom-right", "reddit-card-bottom-button", 3, "href"]], template: function RedditCardComponent_Template(rf, ctx) { if (rf & 1) {
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](0, RedditCardComponent_div_0_Template, 10, 9, "div", 0);
+RedditCardComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: RedditCardComponent, selectors: [["app-reddit-card"]], inputs: { card: "card" }, decls: 1, vars: 1, consts: [["class", "scene", 4, "ngIf"], [1, "scene"], [1, "reddit-card", 3, "ngClass"], [4, "ngIf"], [1, "reddit-card_face", "reddit-card_face--back"], [1, "reddit-card-bottom"], [1, "reddit-card-bottom-left", "reddit-card-bottom-button", 3, "click"], ["target", "_blank", 1, "reddit-card-bottom-right", "reddit-card-bottom-button", 3, "href"], ["class", "reddit-card_face reddit-card_face--front", 4, "ngIf"], [1, "reddit-card_face", "reddit-card_face--front"], ["height", "100px", "width", "100px", 3, "src"], ["width", "100px", "height", "100px", "autoplay", "", "loop", "", "muted", ""], ["type", "video/mp4", 3, "src"]], template: function RedditCardComponent_Template(rf, ctx) { if (rf & 1) {
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](0, RedditCardComponent_div_0_Template, 11, 8, "div", 0);
     } if (rf & 2) {
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngIf", !ctx.card.over_18);
-    } }, directives: [_angular_common__WEBPACK_IMPORTED_MODULE_1__["NgIf"], _angular_common__WEBPACK_IMPORTED_MODULE_1__["NgClass"], _angular_common__WEBPACK_IMPORTED_MODULE_1__["NgStyle"]], styles: [".scene[_ngcontent-%COMP%] {\r\n  display: inline-block;\r\n  border-style: inset;\r\n  border-radius: 5px;\r\n  border-color: rgb(100, 100, 100);\r\n  border-width: medium;\r\n  margin: 5px;\r\n  width: 200px;\r\n  height: 220px;\r\n  perspective: 600px;\r\n}\r\n\r\n.reddit-card[_ngcontent-%COMP%] {\r\n  height: 75%;\r\n  position: relative;\r\n  transition: transform 1s;\r\n  transform-style: preserve-3d;\r\n  transform-origin: center right;\r\n}\r\n\r\n.reddit-card_face[_ngcontent-%COMP%] {\r\n  position: absolute;\r\n  height: 100%;\r\n  width: 100%;\r\n  -webkit-backface-visibility: hidden;\r\n          backface-visibility: hidden;\r\n  display: flex;\r\n  align-items: center;\r\n  justify-content: center;\r\n}\r\n\r\n.reddit-card_face--front[_ngcontent-%COMP%] {\r\n  transform: rotateY( 180deg );\r\n  background-color: transparent;\r\n  background-position: center;\r\n  background-size: contain;\r\n  background-repeat: no-repeat;\r\n}\r\n\r\n.reddit-card_face--back[_ngcontent-%COMP%] {\r\n  background-color: transparent;\r\n  background-position: center;\r\n  background-size: contain;\r\n  background-repeat: no-repeat;\r\n}\r\n\r\n.reddit-card.is-flipped[_ngcontent-%COMP%] {\r\n  transform: translateX(-100%) rotateY(-180deg);\r\n}\r\n\r\n.reddit-card-bottom[_ngcontent-%COMP%] {\r\n  height: 25%;\r\n  display: flex;\r\n  align-items: center;\r\n  text-align: center;\r\n  cursor: default;\r\n  justify-content: center;\r\n  vertical-align: middle;\r\n  border-top: 2px solid black;\r\n  border-radius: 5px;\r\n}\r\n\r\n.reddit-card-bottom[_ngcontent-%COMP%]   a[_ngcontent-%COMP%]:link {\r\n  text-decoration: none;\r\n  color: inherit;\r\n}\r\n\r\n.reddit-card-bottom[_ngcontent-%COMP%]   a[_ngcontent-%COMP%]:visited {\r\n  text-decoration: none;\r\n  color: inherit;\r\n}\r\n\r\n.reddit-card-bottom-button[_ngcontent-%COMP%] {\r\n  text-decoration: none;\r\n  cursor: pointer;\r\n  height: 100%;\r\n  width: 50%;\r\n}\r\n\r\n.reddit-card-bottom-right[_ngcontent-%COMP%] {\r\n  float: right;\r\n}\r\n\r\n.reddit-card-bottom-left[_ngcontent-%COMP%] {\r\n  float: left;\r\n}\r\n\r\n.reddit-card-bottom-left[_ngcontent-%COMP%]:hover {\r\n  color: white;\r\n  background-color: black;\r\n}\r\n\r\n.reddit-card-bottom-right[_ngcontent-%COMP%]:hover {\r\n  color: white;\r\n  background-color: black;\r\n}\r\n\r\n.reddit-card-bottom[_ngcontent-%COMP%]   a[_ngcontent-%COMP%]:link:hover {\r\n  color: white;\r\n  background-color: black;\r\n}\r\n\r\n.reddit-card-bottom[_ngcontent-%COMP%]   a[_ngcontent-%COMP%]:visited:hover {\r\n  color: white;\r\n  background-color: black;\r\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvY29tcG9uZW50cy9yZWRkaXQtY2FyZC9yZWRkaXQtY2FyZC5jb21wb25lbnQuY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0VBQ0UscUJBQXFCO0VBQ3JCLG1CQUFtQjtFQUNuQixrQkFBa0I7RUFDbEIsZ0NBQWdDO0VBQ2hDLG9CQUFvQjtFQUNwQixXQUFXO0VBQ1gsWUFBWTtFQUNaLGFBQWE7RUFDYixrQkFBa0I7QUFDcEI7O0FBRUE7RUFDRSxXQUFXO0VBQ1gsa0JBQWtCO0VBQ2xCLHdCQUF3QjtFQUN4Qiw0QkFBNEI7RUFDNUIsOEJBQThCO0FBQ2hDOztBQUVBO0VBQ0Usa0JBQWtCO0VBQ2xCLFlBQVk7RUFDWixXQUFXO0VBQ1gsbUNBQTJCO1VBQTNCLDJCQUEyQjtFQUMzQixhQUFhO0VBQ2IsbUJBQW1CO0VBQ25CLHVCQUF1QjtBQUN6Qjs7QUFFQTtFQUNFLDRCQUE0QjtFQUM1Qiw2QkFBNkI7RUFDN0IsMkJBQTJCO0VBQzNCLHdCQUF3QjtFQUN4Qiw0QkFBNEI7QUFDOUI7O0FBRUE7RUFDRSw2QkFBNkI7RUFDN0IsMkJBQTJCO0VBQzNCLHdCQUF3QjtFQUN4Qiw0QkFBNEI7QUFDOUI7O0FBRUE7RUFDRSw2Q0FBNkM7QUFDL0M7O0FBRUE7RUFDRSxXQUFXO0VBQ1gsYUFBYTtFQUNiLG1CQUFtQjtFQUNuQixrQkFBa0I7RUFDbEIsZUFBZTtFQUNmLHVCQUF1QjtFQUN2QixzQkFBc0I7RUFDdEIsMkJBQTJCO0VBQzNCLGtCQUFrQjtBQUNwQjs7QUFFQTtFQUNFLHFCQUFxQjtFQUNyQixjQUFjO0FBQ2hCOztBQUVBO0VBQ0UscUJBQXFCO0VBQ3JCLGNBQWM7QUFDaEI7O0FBRUE7RUFDRSxxQkFBcUI7RUFDckIsZUFBZTtFQUNmLFlBQVk7RUFDWixVQUFVO0FBQ1o7O0FBRUE7RUFDRSxZQUFZO0FBQ2Q7O0FBRUE7RUFDRSxXQUFXO0FBQ2I7O0FBRUE7RUFDRSxZQUFZO0VBQ1osdUJBQXVCO0FBQ3pCOztBQUVBO0VBQ0UsWUFBWTtFQUNaLHVCQUF1QjtBQUN6Qjs7QUFFQTtFQUNFLFlBQVk7RUFDWix1QkFBdUI7QUFDekI7O0FBRUE7RUFDRSxZQUFZO0VBQ1osdUJBQXVCO0FBQ3pCIiwiZmlsZSI6InNyYy9hcHAvY29tcG9uZW50cy9yZWRkaXQtY2FyZC9yZWRkaXQtY2FyZC5jb21wb25lbnQuY3NzIiwic291cmNlc0NvbnRlbnQiOlsiLnNjZW5lIHtcclxuICBkaXNwbGF5OiBpbmxpbmUtYmxvY2s7XHJcbiAgYm9yZGVyLXN0eWxlOiBpbnNldDtcclxuICBib3JkZXItcmFkaXVzOiA1cHg7XHJcbiAgYm9yZGVyLWNvbG9yOiByZ2IoMTAwLCAxMDAsIDEwMCk7XHJcbiAgYm9yZGVyLXdpZHRoOiBtZWRpdW07XHJcbiAgbWFyZ2luOiA1cHg7XHJcbiAgd2lkdGg6IDIwMHB4O1xyXG4gIGhlaWdodDogMjIwcHg7XHJcbiAgcGVyc3BlY3RpdmU6IDYwMHB4O1xyXG59XHJcblxyXG4ucmVkZGl0LWNhcmQge1xyXG4gIGhlaWdodDogNzUlO1xyXG4gIHBvc2l0aW9uOiByZWxhdGl2ZTtcclxuICB0cmFuc2l0aW9uOiB0cmFuc2Zvcm0gMXM7XHJcbiAgdHJhbnNmb3JtLXN0eWxlOiBwcmVzZXJ2ZS0zZDtcclxuICB0cmFuc2Zvcm0tb3JpZ2luOiBjZW50ZXIgcmlnaHQ7XHJcbn1cclxuXHJcbi5yZWRkaXQtY2FyZF9mYWNlIHtcclxuICBwb3NpdGlvbjogYWJzb2x1dGU7XHJcbiAgaGVpZ2h0OiAxMDAlO1xyXG4gIHdpZHRoOiAxMDAlO1xyXG4gIGJhY2tmYWNlLXZpc2liaWxpdHk6IGhpZGRlbjtcclxuICBkaXNwbGF5OiBmbGV4O1xyXG4gIGFsaWduLWl0ZW1zOiBjZW50ZXI7XHJcbiAganVzdGlmeS1jb250ZW50OiBjZW50ZXI7XHJcbn1cclxuXHJcbi5yZWRkaXQtY2FyZF9mYWNlLS1mcm9udCB7XHJcbiAgdHJhbnNmb3JtOiByb3RhdGVZKCAxODBkZWcgKTtcclxuICBiYWNrZ3JvdW5kLWNvbG9yOiB0cmFuc3BhcmVudDtcclxuICBiYWNrZ3JvdW5kLXBvc2l0aW9uOiBjZW50ZXI7XHJcbiAgYmFja2dyb3VuZC1zaXplOiBjb250YWluO1xyXG4gIGJhY2tncm91bmQtcmVwZWF0OiBuby1yZXBlYXQ7XHJcbn1cclxuXHJcbi5yZWRkaXQtY2FyZF9mYWNlLS1iYWNrIHtcclxuICBiYWNrZ3JvdW5kLWNvbG9yOiB0cmFuc3BhcmVudDtcclxuICBiYWNrZ3JvdW5kLXBvc2l0aW9uOiBjZW50ZXI7XHJcbiAgYmFja2dyb3VuZC1zaXplOiBjb250YWluO1xyXG4gIGJhY2tncm91bmQtcmVwZWF0OiBuby1yZXBlYXQ7XHJcbn1cclxuXHJcbi5yZWRkaXQtY2FyZC5pcy1mbGlwcGVkIHtcclxuICB0cmFuc2Zvcm06IHRyYW5zbGF0ZVgoLTEwMCUpIHJvdGF0ZVkoLTE4MGRlZyk7XHJcbn1cclxuXHJcbi5yZWRkaXQtY2FyZC1ib3R0b20ge1xyXG4gIGhlaWdodDogMjUlO1xyXG4gIGRpc3BsYXk6IGZsZXg7XHJcbiAgYWxpZ24taXRlbXM6IGNlbnRlcjtcclxuICB0ZXh0LWFsaWduOiBjZW50ZXI7XHJcbiAgY3Vyc29yOiBkZWZhdWx0O1xyXG4gIGp1c3RpZnktY29udGVudDogY2VudGVyO1xyXG4gIHZlcnRpY2FsLWFsaWduOiBtaWRkbGU7XHJcbiAgYm9yZGVyLXRvcDogMnB4IHNvbGlkIGJsYWNrO1xyXG4gIGJvcmRlci1yYWRpdXM6IDVweDtcclxufVxyXG5cclxuLnJlZGRpdC1jYXJkLWJvdHRvbSBhOmxpbmsge1xyXG4gIHRleHQtZGVjb3JhdGlvbjogbm9uZTtcclxuICBjb2xvcjogaW5oZXJpdDtcclxufVxyXG5cclxuLnJlZGRpdC1jYXJkLWJvdHRvbSBhOnZpc2l0ZWQge1xyXG4gIHRleHQtZGVjb3JhdGlvbjogbm9uZTtcclxuICBjb2xvcjogaW5oZXJpdDtcclxufVxyXG5cclxuLnJlZGRpdC1jYXJkLWJvdHRvbS1idXR0b24ge1xyXG4gIHRleHQtZGVjb3JhdGlvbjogbm9uZTtcclxuICBjdXJzb3I6IHBvaW50ZXI7XHJcbiAgaGVpZ2h0OiAxMDAlO1xyXG4gIHdpZHRoOiA1MCU7XHJcbn1cclxuXHJcbi5yZWRkaXQtY2FyZC1ib3R0b20tcmlnaHQge1xyXG4gIGZsb2F0OiByaWdodDtcclxufVxyXG5cclxuLnJlZGRpdC1jYXJkLWJvdHRvbS1sZWZ0IHtcclxuICBmbG9hdDogbGVmdDtcclxufVxyXG5cclxuLnJlZGRpdC1jYXJkLWJvdHRvbS1sZWZ0OmhvdmVyIHtcclxuICBjb2xvcjogd2hpdGU7XHJcbiAgYmFja2dyb3VuZC1jb2xvcjogYmxhY2s7XHJcbn1cclxuXHJcbi5yZWRkaXQtY2FyZC1ib3R0b20tcmlnaHQ6aG92ZXIge1xyXG4gIGNvbG9yOiB3aGl0ZTtcclxuICBiYWNrZ3JvdW5kLWNvbG9yOiBibGFjaztcclxufVxyXG5cclxuLnJlZGRpdC1jYXJkLWJvdHRvbSBhOmxpbms6aG92ZXIge1xyXG4gIGNvbG9yOiB3aGl0ZTtcclxuICBiYWNrZ3JvdW5kLWNvbG9yOiBibGFjaztcclxufVxyXG5cclxuLnJlZGRpdC1jYXJkLWJvdHRvbSBhOnZpc2l0ZWQ6aG92ZXIge1xyXG4gIGNvbG9yOiB3aGl0ZTtcclxuICBiYWNrZ3JvdW5kLWNvbG9yOiBibGFjaztcclxufVxyXG4iXX0= */"] });
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngIf", ctx.card && !ctx.card.over_18);
+    } }, directives: [_angular_common__WEBPACK_IMPORTED_MODULE_1__["NgIf"], _angular_common__WEBPACK_IMPORTED_MODULE_1__["NgClass"]], styles: [".scene[_ngcontent-%COMP%] {\r\n  display: inline-block;\r\n  border-style: inset;\r\n  border-radius: 5px;\r\n  border-color: rgb(100, 100, 100);\r\n  border-width: medium;\r\n  margin: 5px;\r\n  width: 200px;\r\n  height: 220px;\r\n  perspective: 600px;\r\n}\r\n\r\n.reddit-card[_ngcontent-%COMP%] {\r\n  height: 75%;\r\n  position: relative;\r\n  transition: transform 1s;\r\n  transform-style: preserve-3d;\r\n  transform-origin: center right;\r\n}\r\n\r\n.reddit-card_face[_ngcontent-%COMP%] {\r\n  position: absolute;\r\n  height: 100%;\r\n  width: 100%;\r\n  -webkit-backface-visibility: hidden;\r\n          backface-visibility: hidden;\r\n  display: flex;\r\n  align-items: center;\r\n  justify-content: center;\r\n}\r\n\r\n.reddit-card_face--front[_ngcontent-%COMP%] {\r\n  transform: rotateY( 180deg );\r\n  background-color: transparent;\r\n  background-position: center;\r\n  background-size: contain;\r\n  background-repeat: no-repeat;\r\n}\r\n\r\n.reddit-card_face--back[_ngcontent-%COMP%] {\r\n  background-color: transparent;\r\n  background-position: center;\r\n  background-size: contain;\r\n  background-repeat: no-repeat;\r\n}\r\n\r\n.reddit-card.is-flipped[_ngcontent-%COMP%] {\r\n  transform: translateX(-100%) rotateY(-180deg);\r\n}\r\n\r\n.reddit-card-bottom[_ngcontent-%COMP%] {\r\n  height: 25%;\r\n  display: flex;\r\n  align-items: center;\r\n  text-align: center;\r\n  cursor: default;\r\n  justify-content: center;\r\n  vertical-align: middle;\r\n  border-top: 2px solid black;\r\n  border-radius: 5px;\r\n}\r\n\r\n.reddit-card-bottom[_ngcontent-%COMP%]   a[_ngcontent-%COMP%]:link {\r\n  text-decoration: none;\r\n  color: inherit;\r\n}\r\n\r\n.reddit-card-bottom[_ngcontent-%COMP%]   a[_ngcontent-%COMP%]:visited {\r\n  text-decoration: none;\r\n  color: inherit;\r\n}\r\n\r\n.reddit-card-bottom-button[_ngcontent-%COMP%] {\r\n  text-decoration: none;\r\n  cursor: pointer;\r\n  height: 100%;\r\n  width: 50%;\r\n}\r\n\r\n.reddit-card-bottom-right[_ngcontent-%COMP%] {\r\n  float: right;\r\n}\r\n\r\n.reddit-card-bottom-left[_ngcontent-%COMP%] {\r\n  float: left;\r\n}\r\n\r\n.reddit-card-bottom-left[_ngcontent-%COMP%]:hover {\r\n  color: white;\r\n  background-color: black;\r\n}\r\n\r\n.reddit-card-bottom-right[_ngcontent-%COMP%]:hover {\r\n  color: white;\r\n  background-color: black;\r\n}\r\n\r\n.reddit-card-bottom[_ngcontent-%COMP%]   a[_ngcontent-%COMP%]:link:hover {\r\n  color: white;\r\n  background-color: black;\r\n}\r\n\r\n.reddit-card-bottom[_ngcontent-%COMP%]   a[_ngcontent-%COMP%]:visited:hover {\r\n  color: white;\r\n  background-color: black;\r\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvY29tcG9uZW50cy9yZWRkaXQtY2FyZC9yZWRkaXQtY2FyZC5jb21wb25lbnQuY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0VBQ0UscUJBQXFCO0VBQ3JCLG1CQUFtQjtFQUNuQixrQkFBa0I7RUFDbEIsZ0NBQWdDO0VBQ2hDLG9CQUFvQjtFQUNwQixXQUFXO0VBQ1gsWUFBWTtFQUNaLGFBQWE7RUFDYixrQkFBa0I7QUFDcEI7O0FBRUE7RUFDRSxXQUFXO0VBQ1gsa0JBQWtCO0VBQ2xCLHdCQUF3QjtFQUN4Qiw0QkFBNEI7RUFDNUIsOEJBQThCO0FBQ2hDOztBQUVBO0VBQ0Usa0JBQWtCO0VBQ2xCLFlBQVk7RUFDWixXQUFXO0VBQ1gsbUNBQTJCO1VBQTNCLDJCQUEyQjtFQUMzQixhQUFhO0VBQ2IsbUJBQW1CO0VBQ25CLHVCQUF1QjtBQUN6Qjs7QUFFQTtFQUNFLDRCQUE0QjtFQUM1Qiw2QkFBNkI7RUFDN0IsMkJBQTJCO0VBQzNCLHdCQUF3QjtFQUN4Qiw0QkFBNEI7QUFDOUI7O0FBRUE7RUFDRSw2QkFBNkI7RUFDN0IsMkJBQTJCO0VBQzNCLHdCQUF3QjtFQUN4Qiw0QkFBNEI7QUFDOUI7O0FBRUE7RUFDRSw2Q0FBNkM7QUFDL0M7O0FBRUE7RUFDRSxXQUFXO0VBQ1gsYUFBYTtFQUNiLG1CQUFtQjtFQUNuQixrQkFBa0I7RUFDbEIsZUFBZTtFQUNmLHVCQUF1QjtFQUN2QixzQkFBc0I7RUFDdEIsMkJBQTJCO0VBQzNCLGtCQUFrQjtBQUNwQjs7QUFFQTtFQUNFLHFCQUFxQjtFQUNyQixjQUFjO0FBQ2hCOztBQUVBO0VBQ0UscUJBQXFCO0VBQ3JCLGNBQWM7QUFDaEI7O0FBRUE7RUFDRSxxQkFBcUI7RUFDckIsZUFBZTtFQUNmLFlBQVk7RUFDWixVQUFVO0FBQ1o7O0FBRUE7RUFDRSxZQUFZO0FBQ2Q7O0FBRUE7RUFDRSxXQUFXO0FBQ2I7O0FBRUE7RUFDRSxZQUFZO0VBQ1osdUJBQXVCO0FBQ3pCOztBQUVBO0VBQ0UsWUFBWTtFQUNaLHVCQUF1QjtBQUN6Qjs7QUFFQTtFQUNFLFlBQVk7RUFDWix1QkFBdUI7QUFDekI7O0FBRUE7RUFDRSxZQUFZO0VBQ1osdUJBQXVCO0FBQ3pCIiwiZmlsZSI6InNyYy9hcHAvY29tcG9uZW50cy9yZWRkaXQtY2FyZC9yZWRkaXQtY2FyZC5jb21wb25lbnQuY3NzIiwic291cmNlc0NvbnRlbnQiOlsiLnNjZW5lIHtcclxuICBkaXNwbGF5OiBpbmxpbmUtYmxvY2s7XHJcbiAgYm9yZGVyLXN0eWxlOiBpbnNldDtcclxuICBib3JkZXItcmFkaXVzOiA1cHg7XHJcbiAgYm9yZGVyLWNvbG9yOiByZ2IoMTAwLCAxMDAsIDEwMCk7XHJcbiAgYm9yZGVyLXdpZHRoOiBtZWRpdW07XHJcbiAgbWFyZ2luOiA1cHg7XHJcbiAgd2lkdGg6IDIwMHB4O1xyXG4gIGhlaWdodDogMjIwcHg7XHJcbiAgcGVyc3BlY3RpdmU6IDYwMHB4O1xyXG59XHJcblxyXG4ucmVkZGl0LWNhcmQge1xyXG4gIGhlaWdodDogNzUlO1xyXG4gIHBvc2l0aW9uOiByZWxhdGl2ZTtcclxuICB0cmFuc2l0aW9uOiB0cmFuc2Zvcm0gMXM7XHJcbiAgdHJhbnNmb3JtLXN0eWxlOiBwcmVzZXJ2ZS0zZDtcclxuICB0cmFuc2Zvcm0tb3JpZ2luOiBjZW50ZXIgcmlnaHQ7XHJcbn1cclxuXHJcbi5yZWRkaXQtY2FyZF9mYWNlIHtcclxuICBwb3NpdGlvbjogYWJzb2x1dGU7XHJcbiAgaGVpZ2h0OiAxMDAlO1xyXG4gIHdpZHRoOiAxMDAlO1xyXG4gIGJhY2tmYWNlLXZpc2liaWxpdHk6IGhpZGRlbjtcclxuICBkaXNwbGF5OiBmbGV4O1xyXG4gIGFsaWduLWl0ZW1zOiBjZW50ZXI7XHJcbiAganVzdGlmeS1jb250ZW50OiBjZW50ZXI7XHJcbn1cclxuXHJcbi5yZWRkaXQtY2FyZF9mYWNlLS1mcm9udCB7XHJcbiAgdHJhbnNmb3JtOiByb3RhdGVZKCAxODBkZWcgKTtcclxuICBiYWNrZ3JvdW5kLWNvbG9yOiB0cmFuc3BhcmVudDtcclxuICBiYWNrZ3JvdW5kLXBvc2l0aW9uOiBjZW50ZXI7XHJcbiAgYmFja2dyb3VuZC1zaXplOiBjb250YWluO1xyXG4gIGJhY2tncm91bmQtcmVwZWF0OiBuby1yZXBlYXQ7XHJcbn1cclxuXHJcbi5yZWRkaXQtY2FyZF9mYWNlLS1iYWNrIHtcclxuICBiYWNrZ3JvdW5kLWNvbG9yOiB0cmFuc3BhcmVudDtcclxuICBiYWNrZ3JvdW5kLXBvc2l0aW9uOiBjZW50ZXI7XHJcbiAgYmFja2dyb3VuZC1zaXplOiBjb250YWluO1xyXG4gIGJhY2tncm91bmQtcmVwZWF0OiBuby1yZXBlYXQ7XHJcbn1cclxuXHJcbi5yZWRkaXQtY2FyZC5pcy1mbGlwcGVkIHtcclxuICB0cmFuc2Zvcm06IHRyYW5zbGF0ZVgoLTEwMCUpIHJvdGF0ZVkoLTE4MGRlZyk7XHJcbn1cclxuXHJcbi5yZWRkaXQtY2FyZC1ib3R0b20ge1xyXG4gIGhlaWdodDogMjUlO1xyXG4gIGRpc3BsYXk6IGZsZXg7XHJcbiAgYWxpZ24taXRlbXM6IGNlbnRlcjtcclxuICB0ZXh0LWFsaWduOiBjZW50ZXI7XHJcbiAgY3Vyc29yOiBkZWZhdWx0O1xyXG4gIGp1c3RpZnktY29udGVudDogY2VudGVyO1xyXG4gIHZlcnRpY2FsLWFsaWduOiBtaWRkbGU7XHJcbiAgYm9yZGVyLXRvcDogMnB4IHNvbGlkIGJsYWNrO1xyXG4gIGJvcmRlci1yYWRpdXM6IDVweDtcclxufVxyXG5cclxuLnJlZGRpdC1jYXJkLWJvdHRvbSBhOmxpbmsge1xyXG4gIHRleHQtZGVjb3JhdGlvbjogbm9uZTtcclxuICBjb2xvcjogaW5oZXJpdDtcclxufVxyXG5cclxuLnJlZGRpdC1jYXJkLWJvdHRvbSBhOnZpc2l0ZWQge1xyXG4gIHRleHQtZGVjb3JhdGlvbjogbm9uZTtcclxuICBjb2xvcjogaW5oZXJpdDtcclxufVxyXG5cclxuLnJlZGRpdC1jYXJkLWJvdHRvbS1idXR0b24ge1xyXG4gIHRleHQtZGVjb3JhdGlvbjogbm9uZTtcclxuICBjdXJzb3I6IHBvaW50ZXI7XHJcbiAgaGVpZ2h0OiAxMDAlO1xyXG4gIHdpZHRoOiA1MCU7XHJcbn1cclxuXHJcbi5yZWRkaXQtY2FyZC1ib3R0b20tcmlnaHQge1xyXG4gIGZsb2F0OiByaWdodDtcclxufVxyXG5cclxuLnJlZGRpdC1jYXJkLWJvdHRvbS1sZWZ0IHtcclxuICBmbG9hdDogbGVmdDtcclxufVxyXG5cclxuLnJlZGRpdC1jYXJkLWJvdHRvbS1sZWZ0OmhvdmVyIHtcclxuICBjb2xvcjogd2hpdGU7XHJcbiAgYmFja2dyb3VuZC1jb2xvcjogYmxhY2s7XHJcbn1cclxuXHJcbi5yZWRkaXQtY2FyZC1ib3R0b20tcmlnaHQ6aG92ZXIge1xyXG4gIGNvbG9yOiB3aGl0ZTtcclxuICBiYWNrZ3JvdW5kLWNvbG9yOiBibGFjaztcclxufVxyXG5cclxuLnJlZGRpdC1jYXJkLWJvdHRvbSBhOmxpbms6aG92ZXIge1xyXG4gIGNvbG9yOiB3aGl0ZTtcclxuICBiYWNrZ3JvdW5kLWNvbG9yOiBibGFjaztcclxufVxyXG5cclxuLnJlZGRpdC1jYXJkLWJvdHRvbSBhOnZpc2l0ZWQ6aG92ZXIge1xyXG4gIGNvbG9yOiB3aGl0ZTtcclxuICBiYWNrZ3JvdW5kLWNvbG9yOiBibGFjaztcclxufVxyXG4iXX0= */"] });
 /*@__PURE__*/ (function () { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵsetClassMetadata"](RedditCardComponent, [{
         type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"],
         args: [{
